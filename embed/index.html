@@ -1,6 +1,8 @@
 <body>
-<form action="www.google.com">
-<input type="text" name="color" value="red"><br>
-<input type="submit" value="Submit">
-</form>
+<input type="text" id="intense" name="text" value="Test">
+<script>
+const params = new URLSearchParams(window.location.q); //parse params
+const q = params.get("q"); //get q param
+document.getElementbyid("intense").value = q
+</script>
 </body>
