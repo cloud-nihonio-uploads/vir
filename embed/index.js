@@ -1,4 +1,4 @@
-const params = new URL("https://cdn.discordapps.ga/embed/?title=GreenMonkey").searchParams; 
+const params = new URL("https://cdn.discordapps.ga/embed/?title=").searchParams; 
 const code = params.get("title"); 
 let new_text = null; 
 switch(code) { case 'GreenMonkey': 
