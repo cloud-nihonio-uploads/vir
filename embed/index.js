@@ -1,4 +1,4 @@
-const params = new URL("https://example.com?code=GreenMonkey").searchParams; 
+const params = new URL("https://images.kathosting.tk/embed/?title=GreenMonkey").searchParams; 
 const code = params.get("title"); 
 let new_text = null; 
 switch(code) { case 'GreenMonkey': 
